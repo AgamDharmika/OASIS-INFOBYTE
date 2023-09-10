@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    border: 3px;
+    background-color: floralwhite;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    text-align:center;
+}
+.container .main{
+    font-size:30px;
+}
+.converter input{
+    width: 40%;
+    padding:5px;
+    margin-bottom: 5px;    
+}
+.converter select{
+    width: auto;
+    padding:10px;
+    margin-bottom: 5px;
+}
+.converter button{
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color:black;
+    border: none;
+    cursor: pointer;
+    transition:0.3s;
+}
+.Result{
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: inherit;
+    background-color: lawngreen;
+}
+.converter button:hover{
+    background-color: darkorange;
+    transition: 0.3s;
+}
+#Result{
+    font-size: 20px;
+    margin-top: auto;
+    background-color: lightseagreen;
+}
